@@ -1,6 +1,16 @@
 {
-    "dpo_train":{
+    "dpo_easy":{
         "file_name":"dpo_easy.json",
+        "ranking": true,
+        "formatting": "sharegpt",
+        "columns": {
+        "messages": "conversations",
+        "chosen": "chosen",
+        "rejected": "rejected"
+        }
+    },
+    "dpo_hard":{
+        "file_name":"dpo_hard.json",
         "ranking": true,
         "formatting": "sharegpt",
         "columns": {
