@@ -56,7 +56,7 @@ cd CL_train
 ```
 In the first stage, the model is trained using the the datasets corresponding to simpler curriculums.
 
-Then it is further trained using the datasets corresponding to the more challenging curriculums.
+Then the trained model is further trained using the datasets corresponding to the more challenging curriculums.
 
 ## Citation
 ```
