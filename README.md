@@ -47,7 +47,7 @@ python ../get_data/gen_data.py \
 ```
 
 ### Curriculum-based Training Paradigm
-we adopt Direct Preference Optimization (DPO) to leverage both the positive and negative samples from the Judger reording process. Moreover, we develop a training paradigm based on curriculum learning to enhance the training process
+We adopt Direct Preference Optimization (DPO) to leverage both the positive and negative samples from the Judger reording process. Moreover, we develop a training paradigm based on curriculum learning to enhance the training process
 
 Here, we provide a revised implementation for an advanced DPO in `dpo_train`. You can set your model_path and data_path in `dpo_train/dpo_train.py`. Then, you can train the model with the script `train_dpo.sh`:
 
