@@ -1,6 +1,6 @@
 # Step-by-Step Mastery: Enhancing Soft Constraint Following Ability of Large Language Models
-[![Github](https://img.shields.io/static/v1?logo=github&style=flat&color=pink&label=github&message=happy12348/FollowSoftConstraints)]
-[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-huggingface-yellow)]
+[![Github](https://img.shields.io/static/v1?logo=github&style=flat&color=pink&label=github&message=meowpass/FollowSoftConstraints)]([https://github.com/YJiangcm/FollowBench](https://github.com/meowpass/FollowComplexInstruction))
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-huggingface-yellow)](https://huggingface.co/datasets/Abbey4799/Complex-Instructions-DPO)
 Official implementation of the paper "From Complex to Simple: Enhancing Multi-Constraint Complex Instruction Following Ability of Large Language Models". 
 
 We systematically study **how to enhance the ability of LLMs to follow complex instructions**, addressing the following research questions:
