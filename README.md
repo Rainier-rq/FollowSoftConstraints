@@ -58,7 +58,7 @@ In the first stage, the model is trained using the the datasets corresponding to
 ```shell
 llamafactory-cli train lora_dpo_easy.yaml
 ```
-Then the trained model is further trained using the datasets corresponding to the more challenging curriculums.
+Then the trained model is further trained using the datasets corresponding to  more challenging curriculums.
 ```shell
 llamafactory-cli train lora_dpo_hard.yaml
 ```
