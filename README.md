@@ -1,5 +1,5 @@
 # Step-by-Step Mastery: Enhancing Soft Constraint Following Ability of Large Language Models
-[![Github](https://img.shields.io/static/v1?logo=github&style=flat&color=pink&label=github&message=happy12348/FollowSoftConstraints)]([https://github.com/YJiangcm/FollowBench](https://github.com/meowpass/FollowComplexInstruction))
+[![Github](https://img.shields.io/static/v1?logo=github&style=flat&color=pink&label=github&message=Rainier-rq/FollowSoftConstraints)]([https://github.com/YJiangcm/FollowBench](https://github.com/meowpass/FollowComplexInstruction))
 
 
 Official implementation of the paper "Step-by-Step Mastery: Enhancing Soft Constraint Following Ability of Large Language Models". 
