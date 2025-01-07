@@ -9,7 +9,7 @@ We systematically study **how to enhance the ability of LLMs to follow soft cons
   - To enable the model to learn how to follow each constraint, we increase only one constraint at a time, enabling the model progressively learn to follow each constraint during the training process.
 - ***How to obtain* high-quality outputs?**
   - We introduce Judger to reorder the outputs based on the extent of constraint following to ensure the quality of outputs.
-- ***How to effectively utilize* the data obtained through Judger reording?**
+- ***How to effectively utilize* the data obtained through Judger reordering?**
   - We we develop a training paradigm based on curriculum learning to enhance the training process.
   - We conduct extensive experiments to prove the effectiveness of our methods in terms of *overall performance and generalization abilities*.
 
