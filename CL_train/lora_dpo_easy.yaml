@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: # Specify the model path
+model_name_or_path: # the base model path
 
 ### method
 stage: dpo
@@ -10,7 +10,7 @@ pref_beta: 0.1
 pref_loss: sigmoid
 
 ### dataset
-dataset: dpo_train
+dataset: dpo_easy
 template: llama3
 cutoff_len: 4096
 max_samples: 10000
@@ -18,7 +18,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir:  # Specify the directory where the model outputs will be saved.
+output_dir:  # the model trained with easy curriculum
 logging_steps: 10
 save_steps: 500
 plot_loss: true
