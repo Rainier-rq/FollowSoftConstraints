@@ -55,9 +55,13 @@ Here, you can complete the whole procedure by running the following script:
 cd CL_train
 ```
 In the first stage, the model is trained using the the datasets corresponding to simpler curriculums. 
-
+```shell
+llamafactory-cli train lora_dpo_easy.yaml
+```
 Then the trained model is further trained using the datasets corresponding to the more challenging curriculums.
-
+```shell
+llamafactory-cli train lora_dpo_hard.yaml
+```
 ## Citation
 ```
 @misc{he2024complex,
