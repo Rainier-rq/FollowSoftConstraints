@@ -5,7 +5,7 @@
 Official implementation of the paper "Step-by-Step Mastery: Enhancing Soft Constraint Following Ability of Large Language Models". 
 
 We systematically study **how to enhance the ability of LLMs to follow soft constraints**, addressing the following research questions:
-- ***How to construct* multi-constraint instruction following dataset**
+- ***How to construct* multi-constraint instruction**
   - To enable the model to learn how to follow each constraint, we increase only one constraint at a time, enabling the model progressively learn to follow each constraint during the training process.
 - ***How to obtain* high-quality outputs?**
   - We introduce Judger to reorder the outputs based on the extent of constraint following to ensure the quality of outputs.
