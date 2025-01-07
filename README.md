@@ -54,7 +54,7 @@ Here, you can complete the whole procedure by running the following script:
 ```shell
 cd CL_train
 ```
-In the first stage, the model is trained using the the datasets corresponding to simpler curriculums.
+In the first stage, the model is trained using the the datasets corresponding to simpler curriculums. 
 
 Then the trained model is further trained using the datasets corresponding to the more challenging curriculums.
 
