@@ -15,7 +15,7 @@ We systematically study **how to enhance the ability of LLMs to follow soft cons
 
 
 
-![image](https://github.com/meowpass/FCS/assets/56729976/debacf40-1858-402b-b94a-700e7b7ad20b)
+![image]([https://github.com/meowpass/FCS/assets/56729976/debacf40-1858-402b-b94a-700e7b7ad20b](https://github.com/happy12348/FollowSoftConstraints/blob/master/method.jpg))
 
 ## 🔥Updates
 * 2024/6/18: We posted the second version of our [paper](https://arxiv.org/pdf/2404.15846)
