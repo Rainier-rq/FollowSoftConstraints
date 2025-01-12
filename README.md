@@ -18,7 +18,7 @@ We systematically study **how to enhance the ability of LLMs to follow soft cons
 ![image](https://github.com/happy12348/FollowSoftConstraints/blob/master/method.jpg)
 
 ## 🔥Updates
-* 2025/1/8: We posted our [paper](https://arxiv.org/pdf/2404.15846).
+* 2025/1/9: We posted our [paper](https://arxiv.org/pdf/2501.04945).
 * 2025/1/7:  We released the data and code of FollowSoftConstraints.
 
 ## ⚙️How to Use the Code
@@ -64,12 +64,13 @@ llamafactory-cli train lora_dpo_hard.yaml
 ```
 ## Citation
 ```
-@misc{he2024complex,
-      title={From Complex to Simple: Enhancing Multi-Constraint Complex Instruction Following Ability of Large Language Models}, 
-      author={Qianyu He and Jie Zeng and Qianxi He and Jiaqing Liang and Yanghua Xiao},
-      year={2024},
-      eprint={2404.15846},
+@misc{ren2025stepbystepmasteryenhancingsoft,
+      title={Step-by-Step Mastery: Enhancing Soft Constraint Following Ability of Large Language Models}, 
+      author={Qingyu Ren and Jie Zeng and Qianyu He and Jiaqing Liang and Yanghua Xiao and Weikang Zhou and Zeye Sun and Fei Yu},
+      year={2025},
+      eprint={2501.04945},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2501.04945}, 
 }
 ```
