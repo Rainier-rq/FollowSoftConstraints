@@ -18,7 +18,7 @@ We systematically study **how to enhance the ability of LLMs to follow soft cons
 ![image](https://github.com/happy12348/FollowSoftConstraints/blob/master/method.jpg)
 
 ## 🔥Updates
-* 2025/1/9: We posted our [paper](https://arxiv.org/pdf/2501.04945).
+* 2025/1/13: We posted our [paper](https://arxiv.org/pdf/2501.04945).
 * 2025/1/7:  We released the data and code of FollowSoftConstraints.
 
 ## ⚙️How to Use the Code
