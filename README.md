@@ -36,7 +36,7 @@ pip install -r requirements.txt
 To obtain datasets with high-quality outputs: 
 - First, we progressively construct the dataset. 
 - Then, we introduce Judger to reorder the outputs to ensure the quality of outputs.
-Here, you can complete the whole procedure by running the script `gen_data.sh`:
+Here, you can complete the whole procedure by running `scripts/gen_data.sh`:
 
 ```shell
 python ../get_data/gen_data.py \
