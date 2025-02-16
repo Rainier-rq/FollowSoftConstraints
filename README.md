@@ -6,10 +6,10 @@ Official implementation of the paper "Step-by-Step Mastery: Enhancing Soft Const
 
 We systematically study **how to enhance the ability of LLMs to follow soft constraints**, addressing the following research questions:
 - ***How to construct* multi-constraint instruction?**
-  - To enable the model to learn how to follow each constraint, we increase only one constraint at a time, enabling the model progressively learn to follow each constraint during the training process.
+  - To enable the model to learn how to follow each constraint, we propose a progressive construction method. Specifically, we add only one constraint at a time, enabling the model progressively learn to follow each constraint during the training process. 
 - ***How to obtain* high-quality outputs?**
   - We introduce Judger to reorder the outputs based on the extent of constraint following to ensure the quality of outputs.
-- ***How to effectively utilize* the data obtained through Judger reordering?**
+- ***How to effectively utilize* the positive and negative samples obtained through Judger reordering?**
   - We we develop a training paradigm based on curriculum learning to enhance the training process.
   - We conduct extensive experiments to prove the effectiveness of our methods in terms of *overall performance and generalization abilities*.
 
@@ -51,11 +51,11 @@ Here, you can complete the whole procedure by running the following script:
 ```shell
 cd CL_train
 ```
-In the first stage, the model is trained using the the datasets corresponding to simpler curriculums: 
+In the first stage, the model is trained using the the datasets corresponding to simpler curricula: 
 ```shell
 llamafactory-cli train lora_dpo_easy.yaml
 ```
-Then the trained model is further trained using the datasets corresponding to  more challenging curriculums:
+Then the trained model is further trained using the datasets corresponding to  more challenging curricula:
 ```shell
 llamafactory-cli train lora_dpo_hard.yaml
 ```
